@@ -1,0 +1,34 @@
+{
+    "name": "artichoke_chat",
+    "version": "1.0.0",
+    "description": "A Simple Chat Client",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/irevenko/ArtichokeChat.git"
+    },
+    "keywords": [
+        "chat",
+        "socket.io",
+        "express"
+    ],
+    "author": "Ilya Revenko <ilya.revenko17@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/irevenko/ArtichokeChat/issues"
+    },
+    "homepage": "https://github.com/irevenko/ArtichokeChat#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "nodemon": "^2.0.2"
+    }
+}
